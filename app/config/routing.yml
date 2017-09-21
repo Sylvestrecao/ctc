@@ -1,0 +1,4 @@
+cathay:
+    resource: "@CathayBundle/Controller/"
+    type:     annotation
+    prefix:   /
