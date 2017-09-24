@@ -2538,7 +2538,30 @@ shortcodes page css
   color: black;
 }
 
+.color-white{
+  color: white;
+}
+
 .ft-s16{
   font-size: 16px;
 }
 
+.mg-t-50{
+  margin-top: 50px;
+}
+
+.mg-t-15{
+  margin-top: 15px;
+}
+
+.pd-0{
+  padding: 0;
+}
+
+.thumbnail{
+  margin-bottom: 0px;
+}
+
+.background-custom-black{
+  background-color: #151515;
+}

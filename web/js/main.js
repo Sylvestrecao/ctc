@@ -6,7 +6,7 @@ jQuery(function($) {'use strict',
 			interval: 8000
 		});
 	});
-
+	
 	//Initiat WOW JS
 	new WOW().init();
 
