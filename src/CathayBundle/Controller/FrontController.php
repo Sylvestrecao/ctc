@@ -62,12 +62,12 @@ class FrontController extends Controller
     }
 
     /**
-     * @Route("/univers/jouets", name="toy_universe")
+     * @Route("/univers/jouets", name="toys_universe")
      * @Method("GET")
      */
-    public function toyUniverseAction()
+    public function toysUniverseAction()
     {
-        return $this->render('CathayBundle:Front:toy-universe.html.twig');
+        return $this->render('CathayBundle:Front:toys-universe.html.twig');
     }
 
     /**
