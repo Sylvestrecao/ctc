@@ -35,12 +35,12 @@ class FrontController extends Controller
     }
 
     /**
-     * @Route("/univers/electronique", name="electronic_universe")
+     * @Route("/univers/electrique", name="electric_universe")
      * @Method("GET")
      */
-    public function electronicUniverseAction()
+    public function electricUniverseAction()
     {
-        return $this->render('CathayBundle:Front:electronic-universe.html.twig');
+        return $this->render('CathayBundle:Front:electric-universe.html.twig');
     }
 
     /**
