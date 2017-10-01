@@ -35,6 +35,33 @@ class FrontController extends Controller
     }
 
     /**
+     * @Route("/a-propos", name="about_us")
+     * @Method("GET")
+     */
+    public function aboutUsAction()
+    {
+        return $this->render('CathayBundle:Front:about-us.html.twig');
+    }
+
+    /**
+     * @Route("/mentions-legales", name="legal_notice")
+     * @Method("GET")
+     */
+    public function legalNoticeAction()
+    {
+        return $this->render('CathayBundle:Front:legal-notice.html.twig');
+    }
+
+    /**
+     * @Route("/conditions-commerciales", name="commercial_conditions")
+     * @Method("GET")
+     */
+    public function commercialConditionsAction()
+    {
+        return $this->render('CathayBundle:Front:commercial-conditions.html.twig');
+    }
+
+    /**
      * @Route("/univers/electrique", name="electric_universe")
      * @Method("GET")
      */
