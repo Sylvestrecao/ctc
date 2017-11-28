@@ -18,4 +18,4 @@ security:
 
 
     access_control:
-        - { path: ^/, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https, host: cathay.sylvestre-cao\.fr$ }
+        - { path: ^/, role: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https, host: cathay-compagnie\.fr$ }
