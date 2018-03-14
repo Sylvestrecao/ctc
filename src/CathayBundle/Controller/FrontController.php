@@ -35,15 +35,6 @@ class FrontController extends Controller
     }
 
     /**
-     * @Route("/a-propos", name="about_us")
-     * @Method("GET")
-     */
-    public function aboutUsAction()
-    {
-        return $this->render('CathayBundle:Front:about-us.html.twig');
-    }
-
-    /**
      * @Route("/mentions-legales", name="legal_notice")
      * @Method("GET")
      */
