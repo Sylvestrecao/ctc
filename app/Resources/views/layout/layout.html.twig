@@ -73,7 +73,6 @@
                     <h3>La Société</h3>
                     <ul>
                         <li><a href="{{ path('commercial_conditions') }}">Conditions commerciales</a></li>
-                        <li><a href="{{ path('legal_notice') }}">Mentions légales</a></li>
                     </ul>
                 </div>
             </div>
@@ -113,8 +112,14 @@
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 &copy; {{ "now"|date("Y") }} Cathay Compagnie - Tous droits réservés.
+            </div>
+            <br/><br/>
+            <div class="col-sm-12">
+                <p style="margin: 0px; font-size: 12px;">
+                    <a href="{{ path('legal_notice') }}">Mentions légales</a>
+                </p>
             </div>
         </div>
     </div>
